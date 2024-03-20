@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My blog</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/style.css" />
+  </head>
+  <body>
+    <header class="container-fluid">
+      <div class="row justify-content-between align-items-center">
+        <div class="col-auto">
+          <h1>Our Blog</h1>
+        </div>
+        <div class="col-auto">
+          <button id="modeToggle" class="btn btn-primary">🌞</button>
+          <a href="index.html"></a>
+        </div>
+      </div>
+    </header>
+    <main class="container">
+      <article>
+        <img
+          src="images/portrait-of-thinking-person-thoughtful-cute-girl-with-text-bubbles-messages-and-thoughts-illustration-linear-hand-drawn-doodle-concept-of-online-communication-and-modern-woman-vector.jpg"
+          alt="Girl thinking"
+          class="small-image"
+        />
+        <p>We're always thinking about something...</p>
+      </article>
+      <div class="form-container">
+        <h2>What's on your mind?</h2>
+        <form id="blogForm">
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username" required />
+          <label for="title">Title:</label>
+          <input type="text" id="title" name="title" required />
+          <label for="content">Content:</label>
+          <textarea
+            name="content"
+            id="content"
+            cols="40"
+            rows="8"
+            required
+          ></textarea>
+          <button id="button" type="submit">Submit</button>
+        </form>
+      </div>
+    </main>
+    <script src="js/script.js"></script>
+    <script src="js/logic.js"></script>
+  </body>
+</html>

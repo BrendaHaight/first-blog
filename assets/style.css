@@ -1,0 +1,81 @@
+body {
+  background-color: #efd8d4;
+}
+body.dark-mode {
+  background-color: #333;
+  color: #fff;
+}
+header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  margin-top: 6em;
+}
+
+article {
+  flex: 1;
+  margin-right: 1rem;
+}
+
+.form-container {
+  width: 50%;
+}
+
+h1 {
+  color: #b0a2d5;
+  margin-left: 8em;
+  font-weight: bold;
+}
+h2 {
+  text-align: center;
+  background-color: #ffc5da;
+  color: #4e7cb8;
+  border-radius: 0.5rem;
+  font-weight: bold;
+}
+
+.small-image {
+  width: 30vw;
+  height: auto;
+  border: 1em solid #ffc5da;
+  border-radius: 0.5rem;
+}
+
+label {
+  margin-bottom: 0.25rem;
+}
+
+input,
+textarea {
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+button {
+  width: 100%;
+  background-color: #ff4067;
+  color: #ffedea;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
+
+#modeToggle {
+  background-color: transparent;
+  border: none;
+  color: #000;
+  font-size: 24px;
+}
+
+.toggle-btn.dark-mode {
+  color: #ffedea;
+}
+
+/* Add hover effect for button */
+#modeToggle:hover {
+  transform: scale(1.2);
+}

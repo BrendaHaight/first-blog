@@ -1,0 +1,52 @@
+body {
+  background-color: #efd8d4;
+}
+body.dark-mode {
+  background-color: #333;
+  color: #fff;
+}
+h1 {
+  color: #b0a2d5;
+  margin-left: 8em;
+  font-weight: bold;
+}
+#modeToggle {
+  background-color: transparent;
+  border: none;
+  color: #000;
+  font-size: 24px;
+}
+.post {
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.post h2 {
+  background-color: #f0f0f0;
+  color: #960018;
+  padding: 10px;
+  margin-top: 0;
+  border-bottom: 2px solid #ccc;
+}
+
+.post p {
+  margin-top: 10px;
+}
+.toggle-btn.dark-mode {
+  color: #ffedea;
+}
+
+/* Add hover effect for button */
+#modeToggle:hover {
+  transform: scale(1.2);
+}
+footer {
+  text-align: center;
+  background-color: #efd8d4;
+}
+.custom-footer {
+  color: #b0a2d5;
+  font-weight: bold;
+}
