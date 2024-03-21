@@ -26,6 +26,8 @@ Click on the sun/moon icon in the header to switch between light and dark mode.
 
 ![Light Mode](images/Light-mode.png)
 
+![Dark Mode](images/Dark-mode.png)
+
 ## Installation
 
 To run this project locally, follow these steps:
