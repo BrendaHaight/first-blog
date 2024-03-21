@@ -80,9 +80,41 @@ button {
   transform: scale(1.2);
 }
 
-@media only screen and (max-width: 768px) {
+@media (max-width: 767px) {
+  /* Styles for small screens */
+  body {
+    /* Adjust body styles for smaller screens */
+    margin: 0; /* Remove default margin */
+  }
+
+  h1 {
+    /* Adjust h1 styles for smaller screens */
+    margin-left: 0; /* Remove margin */
+  }
+
   .container {
-    flex-direction: column;
-    margin-top: 3em;
+    /* Adjust container styles for smaller screens */
+    margin-top: 4em; /* Decrease margin-top */
+  }
+
+  article {
+    /* Adjust article styles for smaller screens */
+    margin-right: 0; /* Remove margin-right */
+  }
+
+  .form-container {
+    /* Adjust form container styles for smaller screens */
+    width: 100%; /* Set width to full width */
+  }
+
+  .small-image {
+    /* Adjust small image styles for smaller screens */
+    width: 100%; /* Set width to full width */
+    border: none; /* Remove border */
+  }
+
+  button {
+    /* Adjust button styles for smaller screens */
+    width: 100%; /* Set width to full width */
   }
 }

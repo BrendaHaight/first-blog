@@ -51,8 +51,25 @@ footer {
   font-weight: bold;
 }
 
-@media only screen and (max-width: 768px) {
+@media (max-width: 767px) {
   body {
-    background-color: #efd8d4;
+    /* Adjust body styles for smaller screens */
+    margin: 0; /* Remove default margin */
+  }
+
+  h1 {
+    margin-left: 0; /* Adjust margin for h1 */
+  }
+
+  .post {
+    /* Adjust styles for individual posts */
+    padding: 10px; /* Decrease padding */
+    margin-bottom: 10px; /* Decrease margin */
+  }
+
+  .post h2 {
+    /* Adjust styles for post titles */
+    padding: 5px; /* Decrease padding */
+    font-size: 18px; /* Decrease font size */
   }
 }
