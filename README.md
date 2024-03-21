@@ -23,7 +23,11 @@ Each blog post includes the title, content, and author's username.
 Toggle Light/Dark Mode:
 
 Click on the sun/moon icon in the header to switch between light and dark mode.
-Installation
+
+![Light Mode](Light-mode.png)
+
+## Installation
+
 To run this project locally, follow these steps:
 
 Clone the repository:
