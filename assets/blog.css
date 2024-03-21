@@ -52,8 +52,7 @@ footer {
 }
 
 @media only screen and (max-width: 768px) {
-  .container {
-    flex-direction: column;
-    margin-top: 3em;
+  body {
+    background-color: #efd8d4;
   }
 }
