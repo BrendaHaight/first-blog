@@ -24,7 +24,7 @@ Toggle Light/Dark Mode:
 
 Click on the sun/moon icon in the header to switch between light and dark mode.
 
-![Light Mode](images/Light-mode.png.png)
+![Light Mode](images/Light-mode.png)
 
 ## Installation
 
