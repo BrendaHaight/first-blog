@@ -1,6 +1,6 @@
-# My Blog
+# Our Blog
 
-Welcome to My Blog! This is a simple web application where users can create and view blog posts. Users can also toggle between light and dark mode for better readability.
+Welcome to your space Blog! This is a simple web application where users can create and view blog posts. Users can also toggle between light and dark mode for better readability.
 
 ## Features
 
