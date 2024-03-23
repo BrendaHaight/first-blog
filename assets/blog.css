@@ -1,10 +1,9 @@
-body.dark-mode footer {
-  background-color: #333; /* Dark mode background color */
-  color: #fff; /* Text color for dark mode */
+body {
+  background-color: #efd8d4;
 }
-
 body.dark-mode .custom-footer {
-  color: #fff; /* Adjusting custom footer text color for dark mode */
+  background-color: #333;
+  color: #fff;
 }
 h1 {
   color: #b0a2d5;
