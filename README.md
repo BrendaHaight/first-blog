@@ -46,10 +46,10 @@ Open the index.html file in your web browser.
 
 ## Technologies Used
 
-HTML5
-CSS3 (Bootstrap)
-JavaScript
+1. HTML5
+2. CSS3 (Bootstrap)
+3. JavaScript
 
 ## Credits
 
-This project was developed by Brenda Haight. You can contact me at [brendahaightt@gmail.com].
+This project was developed by Brenda Haight. You can chech the blog [Our blog](https://brendahaight.github.io/first-blog/).
