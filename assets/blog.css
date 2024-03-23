@@ -54,6 +54,10 @@ footer {
   color: #b0a2d5;
   font-weight: bold;
 }
+.portfolio-link,
+.author {
+  color: #f9004d;
+}
 
 @media (max-width: 767px) {
   body {
