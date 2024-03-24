@@ -10,6 +10,6 @@ modeToggleBtn.addEventListener("click", function () {
   if (isDarkMode) {
     modeToggleBtn.textContent = "🌞"; // Show sun emoji in dark mode
   } else {
-    modeToggleBtn.textContent = "🌜"; // Show moon emoji in light mode
+    modeToggleBtn.textContent = "🌑"; // Show moon emoji in light mode
   }
 });
