@@ -25,4 +25,6 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 const backButton = document.getElementById("back-btn");
-ba
+backButton.addEventListener("click", function () {
+  window.location.href = "../index.html";
+});

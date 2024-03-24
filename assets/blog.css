@@ -84,20 +84,20 @@ footer {
 @media (max-width: 767px) {
   /* Styles for small screens */
   body {
-    margin: 0; /* Remove default margin */
+    margin: 0;
   }
 
   h1 {
-    margin-left: 0; /* Adjust margin for h1 */
+    margin-left: 0;
   }
 
   .post {
-    padding: 10px; /* Decrease padding for posts */
-    margin-bottom: 10px; /* Decrease margin for posts */
+    padding: 10px;
+    margin-bottom: 10px;
   }
 
   .post h2 {
-    padding: 5px; /* Decrease padding for post titles */
-    font-size: 18px; /* Decrease font size for post titles */
+    padding: 5px;
+    font-size: 18px;
   }
 }
