@@ -39,45 +39,4 @@ h1 {
   margin-top: 10px;
 }
 .toggle-btn.dark-mode {
-  color: #ffedea;
-}
-
-/* Add hover effect for button */
-#modeToggle:hover {
-  transform: scale(1.2);
-}
-footer {
-  text-align: center;
-  background-color: #efd8d4;
-}
-.custom-footer {
-  color: #b0a2d5;
-  font-weight: bold;
-}
-.portfolio-link,
-.author {
-  color: #f9004d;
-}
-
-@media (max-width: 767px) {
-  body {
-    /* Adjust body styles for smaller screens */
-    margin: 0; /* Remove default margin */
-  }
-
-  h1 {
-    margin-left: 0; /* Adjust margin for h1 */
-  }
-
-  .post {
-    /* Adjust styles for individual posts */
-    padding: 10px; /* Decrease padding */
-    margin-bottom: 10px; /* Decrease margin */
-  }
-
-  .post h2 {
-    /* Adjust styles for post titles */
-    padding: 5px; /* Decrease padding */
-    font-size: 18px; /* Decrease font size */
-  }
-}
+  color: 
