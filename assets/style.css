@@ -2,13 +2,11 @@
 body {
   background-color: #efd8d4;
 }
-
 /* Dark Mode Styles */
 body.dark-mode {
   background-color: #333;
   color: #fff;
 }
-
 /* Header Styles */
 header {
   position: fixed;
@@ -16,31 +14,26 @@ header {
   right: 0;
   width: 100%;
 }
-
 /* Container Styles */
 .container {
   display: flex;
   margin-top: 6em;
 }
-
 /* Article Styles */
 article {
   flex: 1;
   margin-right: 1rem;
 }
-
 /* Form Container Styles */
 .form-container {
   width: 50%;
 }
-
 /* Heading Styles */
 h1 {
   color: #b0a2d5;
   margin-left: 8em;
   font-weight: bold;
 }
-
 /* Subheading Styles */
 h2 {
   text-align: center;
@@ -49,7 +42,6 @@ h2 {
   border-radius: 0.5rem;
   font-weight: bold;
 }
-
 /* Small Image Styles */
 .small-image {
   width: 30vw;
@@ -62,14 +54,12 @@ h2 {
 label {
   margin-bottom: 0.25rem;
 }
-
 /* Input and Textarea Styles */
 input,
 textarea {
   width: 100%;
   margin-bottom: 0.5rem;
 }
-
 /* Button Styles */
 button {
   width: 100%;
@@ -79,7 +69,6 @@ button {
   border-radius: 0.5rem;
   padding: 0.5rem;
 }
-
 /* Mode Toggle Button Styles */
 #modeToggle {
   background-color: transparent;
@@ -87,7 +76,6 @@ button {
   color: #000;
   font-size: 24px;
 }
-
 /* Dark Mode Toggle Button Styles */
 .toggle-btn.dark-mode {
   color: #ffedea;
@@ -97,7 +85,6 @@ button {
 #modeToggle:hover {
   transform: scale(1.2);
 }
-
 /* Media Query for Small Screens */
 @media (max-width: 767px) {
   /* Styles for small screens */
