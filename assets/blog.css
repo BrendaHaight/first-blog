@@ -1,25 +1,36 @@
+/* Body Styles */
 body {
   background-color: #efd8d4;
 }
+
+/* Dark Mode Styles */
 body.dark-mode {
   background-color: #333;
   color: #fff;
 }
+
+/* Custom Footer Styles for Dark Mode */
 body.dark-mode .custom-footer {
   background-color: #333;
   color: #fff;
 }
+
+/* Heading Styles */
 h1 {
   color: #b0a2d5;
   margin-left: 8em;
   font-weight: bold;
 }
+
+/* Mode Toggle Button Styles */
 #modeToggle {
   background-color: transparent;
   border: none;
   color: #000;
   font-size: 24px;
 }
+
+/* Post Styles */
 .post {
   border: 2px solid #ccc;
   border-radius: 5px;
@@ -27,6 +38,7 @@ h1 {
   padding: 20px;
 }
 
+/* Post Title Styles */
 .post h2 {
   background-color: #f0f0f0;
   color: #960018;
@@ -35,33 +47,43 @@ h1 {
   border-bottom: 2px solid #ccc;
 }
 
+/* Post Paragraph Styles */
 .post p {
   margin-top: 10px;
 }
+
+/* Dark Mode Toggle Button Styles */
 .toggle-btn.dark-mode {
   color: #ffedea;
 }
 
-/* Add hover effect for button */
+/* Button Hover Effect */
 #modeToggle:hover {
   transform: scale(1.2);
 }
+
+/* Footer Styles */
 footer {
   text-align: center;
   background-color: #efd8d4;
 }
+
+/* Custom Footer Styles */
 .custom-footer {
   color: #b0a2d5;
   font-weight: bold;
 }
+
+/* Portfolio Link and Author Styles for Dark Mode */
 .portfolio-link,
 .author {
   color: #f9004d;
 }
 
+/* Media Query for Small Screens */
 @media (max-width: 767px) {
+  /* Styles for small screens */
   body {
-    /* Adjust body styles for smaller screens */
     margin: 0; /* Remove default margin */
   }
 
@@ -70,14 +92,12 @@ footer {
   }
 
   .post {
-    /* Adjust styles for individual posts */
-    padding: 10px; /* Decrease padding */
-    margin-bottom: 10px; /* Decrease margin */
+    padding: 10px; /* Decrease padding for posts */
+    margin-bottom: 10px; /* Decrease margin for posts */
   }
 
   .post h2 {
-    /* Adjust styles for post titles */
-    padding: 5px; /* Decrease padding */
-    font-size: 18px; /* Decrease font size */
+    padding: 5px; /* Decrease padding for post titles */
+    font-size: 18px; /* Decrease font size for post titles */
   }
 }

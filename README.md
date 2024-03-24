@@ -52,4 +52,4 @@ Open the index.html file in your web browser.
 
 ## Credits
 
-This project was developed by Brenda Haight. You can chech the blog [Our blog](https://brendahaight.github.io/first-blog/).
+This project was developed by Brenda Haight. You can chech the blog [Our blo
